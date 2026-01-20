@@ -61,7 +61,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "https://ai-decision-backend.onrender.com/analyze-decision",
+        "https://ai-decision-impact-simulator.onrender.com/analyze-decision",
         {
           method: "POST",
           headers: {
