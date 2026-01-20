@@ -6,7 +6,7 @@ app = FastAPI(title="AI Decision Impact Simulator")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # for now (safe for assignment)
+    allow_origins=["*"],   
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
